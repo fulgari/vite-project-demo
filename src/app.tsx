@@ -1,15 +1,17 @@
-import { Logo } from './logo'
-import { animation } from './three';
-import { useEffect } from 'preact/hooks'
+import { Logo } from "./logo";
+import { animation } from "./three";
+import { useEffect } from "preact/hooks";
+import { LoveScene } from "./three_lovescene";
 
 export function App() {
   useEffect(() => {
-    animation(10)
+    // animation(60)
+    new LoveScene();
   }, []);
 
   return (
     <>
-      <Logo />
+      {/* <Logo />
       <p>Hello Vite + Preact!</p>
       <p>
         <a
@@ -20,7 +22,7 @@ export function App() {
         >
           Learn Preact
         </a>
-      </p>
+      </p> */}
     </>
-  )
+  );
 }

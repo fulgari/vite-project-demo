@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   background: #fafafa;
-  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-family: "Helvetica Neue", arial, sans-serif;
   font-weight: 400;
   color: #444;
   -webkit-font-smoothing: antialiased;
@@ -16,14 +16,14 @@ body {
   box-sizing: border-box;
 }
 
-#app {
+/* #app {
   height: 100%;
   text-align: center;
   background-color: #673ab8;
   color: #fff;
   font-size: 1.5em;
   padding-top: 100px;
-}
+} */
 
 .link {
   color: #fff;
